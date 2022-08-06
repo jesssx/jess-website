@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import './About.css';
 import Navbar from '../modules/Navbar.js';
 import blackboard from '../../assets/blackboard.svg';
-import bear from '../../assets/bea.svg';
+import bear from '../../assets/bear.svg';
 
 class About extends Component {
   constructor(props){

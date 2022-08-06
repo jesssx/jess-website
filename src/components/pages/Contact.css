@@ -10,6 +10,27 @@
     margin: 0 auto;
     max-height: 90vh;
 }
+.card-container{
+    display: flex;
+    justify-content: center;
+}
+
+.contact-link{
+    position:relative;
+    text-decoration: none;
+    color:#fff3e6;
+    background-color: #9bcaea;  
+    padding: 1vh 5vh;
+    margin: 3vh;
+    font-size: 4vh;
+    border-radius:10vh;
+    margin-top: 52vh;
+}
+
+.contact-link:hover{
+    background-color: #ffaa9f;  
+}
+
 .card{
     height:40vh;
     margin-top: 35vh;
