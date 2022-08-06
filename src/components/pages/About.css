@@ -1,3 +1,8 @@
+@font-face { 
+    font-family: "Omnes"; 
+    src: url('../../assets/omnes.woff') format("woff"); 
+} 
+
 .about-background{
     display: flex;
     background-color: #fff3e6;
@@ -13,6 +18,7 @@
 .blackboard-container{
     display: flex;
     justify-content: center;
+    max-height: 65vh;
 }
 
 .blackboard{
@@ -20,10 +26,93 @@
     position: absolute;
 }
 
-.blackboard-selector{
-    font-size: large;
+.select{
+    font-family: Omnes;
+    display: flex;
+    position: relative;
     color: #fff3e6;
-    position: absolute;
+    font-size: 4vh;
+    justify-content: center;
+}
+
+.selector{
+    color: #fff3e6;
+    font-size: 4vh;
+    background-color: transparent;
+    border: 0px;
+    margin:3vh;
+    margin-top: 5vh;
+    margin-bottom: 3vh;
+}
+
+.selector.show {
+    color: #ffaa9f;
+}
+
+.selector.hide{
+    color: #fff3e6;
+    display: flex;
+}
+
+.selector.divider:hover{
+    color: #fff3e6;
+    cursor: default;
+}
+
+.selector:hover{
+    cursor: pointer;
+    color: #f89083;
+}
+
+.info{
+    font-family: Omnes;
+    display: flex;
+    position: relative;
+    color: #fff3e6;
+    font-size: 2.5vh;
+    height: 45vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.classlist{
+    list-style-type: none;
+}
+
+.info::-webkit-scrollbar{
+    width: 0.5vw;
+}
+
+.info::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 1vw rgba(0, 0, 0, 0.3);
+    border-radius: 10vh;
+  }
+   
+.info::-webkit-scrollbar-thumb {
+    background-color: #fff3e6;
+    border-radius: 10vh;
+  }
+
+.bio{
+    display: flex;
+    flex-direction: column;
+}
+
+.classes{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.words{
+    max-width: 65vw;
+}
+.show{
+    display: flex;
+}
+
+.hide{
+    display: none;
 }
 
 .bear{
