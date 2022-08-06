@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import './NotFound.css';
 
 class NotFound extends Component {
   constructor(props){

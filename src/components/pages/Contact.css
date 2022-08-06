@@ -1,0 +1,23 @@
+.contact-background{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff3e6;
+    height: 100vh;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    max-height: 90vh;
+}
+.card{
+    height:40vh;
+    margin-top: 35vh;
+    position: absolute;
+}
+
+.table{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}

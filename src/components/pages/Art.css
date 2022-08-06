@@ -1,0 +1,27 @@
+@font-face { 
+    font-family: "Omnes"; 
+    src: url('../../assets/omnes.woff') format("woff"); 
+} 
+
+.art-background{
+    display: flex;
+    background-color: #fff3e6;
+    height: 100vh;
+}
+
+.art-title{
+    font-family: Omnes;
+    letter-spacing: 0.2vh;
+    margin-top: 10vh;
+    margin-left: 8vh;
+    font-size: 10vh;
+    font-weight: 100;
+    color: #5b4e4a;
+}
+
+.art{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    font-family: Omnes;
+}

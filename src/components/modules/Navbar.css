@@ -1,0 +1,24 @@
+@font-face { 
+    font-family: "Omnes"; 
+    src: url('../../assets/omnes.woff') format("woff"); 
+} 
+
+.nav-container{
+    position:absolute;
+    right: 3vh;
+    top: 3vh;
+}
+
+.nav-link{
+    font-family: Omnes;
+    font-weight: 600;
+    text-decoration: none;
+    margin: 2.5vh;
+    font-size: 2.8vh;
+    letter-spacing: 0.2vh;
+    color: #77b1a3; 
+}
+
+.nav-link:hover{
+    color: #ffaa9f;
+}

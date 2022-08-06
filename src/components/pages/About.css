@@ -1,0 +1,33 @@
+.about-background{
+    display: flex;
+    background-color: #fff3e6;
+    height: 100vh;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 10vh;
+}
+
+.blackboard-container{
+    display: flex;
+    justify-content: center;
+}
+
+.blackboard{
+    height:65vh;
+    position: absolute;
+}
+
+.blackboard-selector{
+    font-size: large;
+    color: #fff3e6;
+    position: absolute;
+}
+
+.bear{
+    width:100vw;
+    position: absolute;
+    bottom: 0;
+}

@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import './Art.css';
+import Navbar from '../modules/Navbar.js';
 
 class Art extends Component {
   constructor(props){
@@ -6,9 +8,14 @@ class Art extends Component {
   }
   render(){
     return (
-      <div>
-        Art
-      </div>
+      <>
+      <div className='art-background'>
+          <Navbar/>
+          <h2 className="art-title">MENU</h2>
+          <div className='art'>
+          </div>
+        </div>
+      </>
     );
   };
 }
