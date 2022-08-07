@@ -6,7 +6,7 @@
 .projects-background{
     display: flex;
     background-color: #fff3e6;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .projects-title{
@@ -19,7 +19,8 @@
 
 .projects{
     display: flex;
-    justify-content: center;
     margin: 0 auto;
     font-family: Omnes;
+    flex-direction: column;
+    text-align: center;
 }
