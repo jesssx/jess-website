@@ -1,0 +1,32 @@
+@font-face { 
+    font-family: "Omnes"; 
+    src: url('../../assets/omnes.woff') format("woff"); 
+} 
+
+.menu-container{
+    display: flex;
+    /* background-color: #fff6f0;
+    border-radius: 2vw;
+    border:2px solid #5b4e4a; */
+    max-width: 30vw;
+    max-height: 25vw;
+    padding: 3vw;
+    margin: 2vw;
+    flex-direction: column;
+    text-align: center;
+    color: #5b4e4a;
+}
+
+.menu-container:hover{
+    cursor: pointer;
+}
+
+.artPiece{
+    max-width: 25vw;
+    max-height: 20vw;
+    padding-bottom: 2vw;
+}
+
+.artTitle{
+    font-size: 1.8vw;
+}

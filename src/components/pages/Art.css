@@ -6,7 +6,7 @@
 .art-background{
     display: flex;
     background-color: #fff3e6;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .art-title{
@@ -21,7 +21,12 @@
 
 .art{
     display: flex;
-    justify-content: center;
-    margin: auto;
+    /* justify-content: center; */
+    /* margin: auto; */
+    /* justify-content: flex-start; */
+    /* justify-content: left;
+    align-items: left; */
+    /* flex-wrap: wrap;
+    flex: 1 0 21%; */
     font-family: Omnes;
 }

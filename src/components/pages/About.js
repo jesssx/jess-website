@@ -50,10 +50,10 @@ class About extends Component {
 
                 <div className='info'>
                   <div className={'bio ' + bio}>
-                    <p>Hi ( ´ ▽ ` )ﾉ☆ I'm Jessica (or Jess), a current junior studying Electrical Engineering and Computer Science at MIT.
+                    <p>Hi there, I'm Jessica (Jess), a current junior studying Electrical Engineering and Computer Science at MIT.
                     I'm an artist and engineer with recent interests in web development, UI/UX, game design, animation, and Chinese watercolor painting.</p>
                     <p>Outside of work-related projects, I spend my time playing video games, creating art, playing badminton, and hanging out with friends (*´︶`*)♡</p>
-                    <p>Hit me up for cool projects or game recommendations!</p>
+                    <p>Hit me up for cool projects or game recommendations ★</p>
                   </div>
 
                   <div className={'classes ' + classes}>
@@ -108,9 +108,6 @@ class About extends Component {
                   </div>
                 </div>
               </div>
-
-
-
             </div>
             <img src={bear} className="bear" alt="bear"/>
           </div>

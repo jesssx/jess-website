@@ -2,10 +2,10 @@ import React, { Component } from "react";
 import './Projects.css';
 import Navbar from '../modules/Navbar.js';
 import Special from '../modules/Special.js';
-import writepet from '../../assets/writepet.PNG';
-import splash from '../../assets/splash.PNG';
-import esp from '../../assets/esp.PNG';
-import lwr from '../../assets/lwr.PNG';
+import writepet from '../../assets/projects/writepet.PNG';
+import splash from '../../assets/projects/splash.PNG';
+import esp from '../../assets/projects/esp.PNG';
+import lwr from '../../assets/projects/lwr.PNG';
 
 class Projects extends Component {
   constructor(props){
