@@ -31,6 +31,10 @@
     border-radius: 10vw;
 }
 
+.home-link:hover{
+    background-color: #ffaa9f;  
+}
+
 .notFound-cat{
     width: 15vw;
     position: absolute;
