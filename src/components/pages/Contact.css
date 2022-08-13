@@ -18,6 +18,20 @@
 .card-container{
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 40vh;
+}
+
+.card-text{
+    font-family: Omnes;
+    color: #5b4e4a;
+    position: relative;
+    font-size: 2vw;
+}
+
+.contact-buttons{
+    margin-top: 3vw;
 }
 
 .contact-link{
@@ -30,7 +44,6 @@
     margin: 1.25vw;
     font-size: 2vw;
     border-radius:10vw;
-    margin-top: 53vh;
 }
 
 .contact-link:hover{
