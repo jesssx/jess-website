@@ -6,7 +6,6 @@ import Art from "./pages/Art.js";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact.js";
 import NotFound from "./pages/NotFound.js";
-import Menu from './modules/Menu.js';
 import Artwork from './modules/Artwork.js';
 
 class App extends Component {
