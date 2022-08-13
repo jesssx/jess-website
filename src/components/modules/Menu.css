@@ -5,16 +5,15 @@
 
 .menu-container{
     display: flex;
-    /* background-color: #fff6f0;
-    border-radius: 2vw;
-    border:2px solid #5b4e4a; */
     max-width: 30vw;
     max-height: 25vw;
-    padding: 3vw;
-    margin: 2vw;
+    padding: 5vw;
+    padding-top: 3vw;
+    padding-bottom: 0;
     flex-direction: column;
     text-align: center;
     color: #5b4e4a;
+    align-items: center;
 }
 
 .menu-container:hover{
@@ -22,7 +21,7 @@
 }
 
 .artPiece{
-    max-width: 25vw;
+    max-width: 22vw;
     max-height: 20vw;
     padding-bottom: 2vw;
 }

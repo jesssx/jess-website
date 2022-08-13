@@ -11,7 +11,6 @@ class Menu extends Component{
         navigate(`/art/${this.props.artUrl}`,).then(navigate(0));
 
     };
-
     
       render() {
         return (

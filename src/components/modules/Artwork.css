@@ -44,3 +44,16 @@
     max-width: 55vw; 
     max-height: 70vh;
 }
+
+.artwork-image.true{
+    display: none;
+}
+
+.artwork-animation{
+    width: 55vw;
+    max-height: 70vh;
+}
+
+.artwork-animation.false{
+    display: none;
+}

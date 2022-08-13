@@ -1,0 +1,39 @@
+@font-face { 
+    font-family: "Omnes"; 
+    src: url('../../assets/omnes.woff') format("woff"); 
+} 
+
+.notFound-background{
+    background-color: #fff3e6;
+    height: 100vh;
+}
+
+.notFound-container{
+    padding-top: 30vh;    
+    display: flex;
+    font-family: Omnes;
+    flex-direction: column;
+    text-align: center;
+    color: #5b4e4a;
+    font-size: 3.5vw;
+}
+
+.notFound-home{
+    margin-top: 2vw;
+}
+
+.home-link{
+    text-decoration: none;
+    color: #fff3e6;
+    background-color: #9bcaea;  
+    padding: .5vw 2.5vw;
+    width: 15vw;
+    border-radius: 10vw;
+}
+
+.notFound-cat{
+    width: 15vw;
+    position: absolute;
+    right: 4vw;
+    bottom: 2vw;
+}

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import './NotFound.css';
+import cat from '../../assets/404cat.svg';
 
 class NotFound extends Component {
   constructor(props){
@@ -7,8 +8,15 @@ class NotFound extends Component {
   }
   render(){
     return (
-      <div>
-        NotFound
+      <div className='notFound-background'>
+        <div className='notFound-container'>
+          <div>404</div>
+          <div>sorry, page not found</div>
+          <div className='notFound-home'>
+            <a href='/' className='home-link'>home</a>
+          </div>
+        </div>
+        <img src={cat} className='notFound-cat' alt='notFound'/>
       </div>
     );
   };

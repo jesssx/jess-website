@@ -26,11 +26,11 @@
     text-decoration: none;
     color:#fff3e6;
     background-color: #9bcaea;  
-    padding: 1vh 5vh;
-    margin: 3vh;
-    font-size: 4vh;
-    border-radius:10vh;
-    margin-top: 52vh;
+    padding: .5vw 3vw;
+    margin: 1.25vw;
+    font-size: 2vw;
+    border-radius:10vw;
+    margin-top: 53vh;
 }
 
 .contact-link:hover{

@@ -12,8 +12,9 @@
 .art-title{
     font-family: Omnes;
     letter-spacing: 0.2vh;
-    margin-top: 10vh;
-    margin-left: 8vh;
+    margin-top: 5vw;
+    margin-left: 5vw;
+    margin-bottom: 0;
     font-size: 10vh;
     font-weight: 100;
     color: #5b4e4a;
@@ -21,12 +22,7 @@
 
 .art{
     display: flex;
-    /* justify-content: center; */
-    /* margin: auto; */
-    /* justify-content: flex-start; */
-    /* justify-content: left;
-    align-items: left; */
-    /* flex-wrap: wrap;
-    flex: 1 0 21%; */
+    flex-wrap: wrap;
     font-family: Omnes;
+    padding-bottom: 5vw;
 }
