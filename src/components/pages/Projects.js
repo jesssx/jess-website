@@ -45,8 +45,7 @@ class Projects extends Component {
 
             <Special 
               title='Splash'
-              text1='Splash is what the HackMIT team calls our annual registration website for our event, which 
-                      thousands of undergraduate students apply for. As the previous marketing head
+              text1='Splash is what the HackMIT team calls our annual registration website for our hackathon. As the previous marketing head
                       and dev team member, I helped to make the assets as well as code the site.'
               text2='All of our assets are made using Adobe Illustrator, and the websites is composed of standard
                       HTML, Javascript, and CSS.'
