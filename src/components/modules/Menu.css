@@ -7,23 +7,25 @@
     display: flex;
     max-width: 30vw;
     max-height: 25vw;
-    padding: 5vw;
-    padding-top: 3vw;
-    padding-bottom: 0;
+    margin: 5vw;
+    margin-top: 3vw;
+    margin-bottom: 0;
     flex-direction: column;
     text-align: center;
     color: #5b4e4a;
     align-items: center;
-}
-
-.menu-container:hover{
-    cursor: pointer;
+    padding: 0;
 }
 
 .artPiece{
     max-width: 22vw;
     max-height: 20vw;
-    padding-bottom: 2vw;
+    padding-bottom: 1vw;
+}
+
+.artSelect:hover{
+    cursor: pointer;
+    color: #ffaa9f;  
 }
 
 .artTitle{

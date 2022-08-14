@@ -15,9 +15,11 @@ class Menu extends Component{
       render() {
         return (
             <>
-                <div className='menu-container' onClick= { () => {this.handleArtClick();}}>
-                    <img src={this.props.artPiece} className="artPiece" alt={this.props.artTitle}/>
-                    <div className='artTitle'>{this.props.artTitle}</div>
+                <div className='menu-container' >
+                    <div className='artSelect' onClick= { () => {this.handleArtClick();}}>
+                        <img src={this.props.artPiece} className="artPiece" alt={this.props.artTitle} />
+                        <div className='artTitle'>{this.props.artTitle}</div>
+                    </div>
                 </div>
             </>
         );
