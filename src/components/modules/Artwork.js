@@ -26,41 +26,41 @@ class Artwork extends Component{
         super(props);
         this.state = {
             artDict : 
-                {'jiangShan': ['JiangShan', '80x80in Chinese Watercolor on Xuan rice paper', 
+                {'jiangShan': ['JiangShan', 'dims Chinese Watercolor on Xuan rice paper', 
                     'description', jiangShan],
-                'tranquilMountains': ['Tranquil Mountains', '10x10in dims', 
+                'tranquilMountains': ['Tranquil Mountains', 'dims', 
                     'description', tranquil],
-                'rollingClouds': ['Rolling Clouds', '10x10in dims', 
+                'rollingClouds': ['Rolling Clouds', 'dims', 
                     'description', rolling],
-                'wildYellow': ['Wild Yellow', '10x10in dims', 
+                'wildYellow': ['Wild Yellow', 'dims', 
                     'description', wild],
-                'springInTheMountains': ['Spring in the Mountains', '10x10in dims', 
+                'springInTheMountains': ['Spring in the Mountains', 'dims', 
                     'description', spring],
-                'blueSpring': ['Blue Spring', '10x10in dims', 
+                'blueSpring': ['Blue Spring', 'dims', 
                     'description', blue],
-                'lazyAfternoon': ['Lazy Afternoon', '10x10in dims', 
+                'lazyAfternoon': ['Lazy Afternoon', 'dims', 
                     'description', lazy],
-                'regret': ['Regret', '10x10in dims', 
+                'regret': ['Regret', 'dims', 
                     'description', regret],
-                'lightOnWatch': ['Light on Watch', '10x10in dims', 
+                'lightOnWatch': ['Light on Watch', 'dims', 
                     'description', light],
-                'gourdOnGourd': ['Gourd on Gourd', '10x10in dims', 
+                'gourdOnGourd': ['Gourd on Gourd', 'dims', 
                     'description', gourd],
-                'loneWolf': ['Lone Wolf', '10x10in dims', 
+                'loneWolf': ['Lone Wolf', 'dims', 
                     'description', wolf],
-                'fullBloom': ['Full Bloom', '10x10in dims', 
+                'fullBloom': ['Full Bloom', 'dims', 
                     'description', fullBloom],
-                'primarina': ['Primarina', '10x10in dims', 
+                'primarina': ['Primarina', 'dims', 
                     'description', primarina],
-                'blueprint22': ['Blueprint22', '10x10in dims', 
+                'blueprint22': ['Blueprint22', 'dims', 
                     'description', bp],
-                'splash21': ['Splash21', '10x10in dims', 
+                'splash21': ['Splash21', 'dims', 
                     'description', splash21],
-                'splash22': ['Splash22', '10x10in dims', 
+                'splash22': ['Splash22', 'dims', 
                     'description', splash22],
-                'kirbyAnimation': ['Kirby Animation', '10x10in dims', 
+                'kirbyAnimation': ['Kirby Animation', 'dims', 
                     'description', kirby],
-                'niceToMeetYou': ['Nice To Meet You', '10x10in dims', 
+                'niceToMeetYou': ['Nice To Meet You', 'dims', 
                 'description', niceToMeetYou],
             }
         }
@@ -74,7 +74,7 @@ class Artwork extends Component{
         }
         const [artTitle, artDims, artDesc, artPiece] = artEntry; 
         const artDisplay = artTitle === 'Kirby Animation';
-        console.log(artDisplay);
+
         return (
             <>
                 <div className='artwork-background'>
