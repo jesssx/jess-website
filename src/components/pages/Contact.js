@@ -13,7 +13,8 @@ class Contact extends Component {
       <>
         <div className='contact-background'>
           <div className='contact'>
-            <img src={table} className="table" alt="table"/>
+            <div class='table'></div> 
+            <img src={table} className="table-top" alt="table"/>
             <div className='card-container'>
               <img src={card} className="card" alt="card"/>
               <a href='mailto:jjx@mit.edu' target='_blank' className='contact-link'>email</a>

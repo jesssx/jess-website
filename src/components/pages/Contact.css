@@ -44,11 +44,35 @@
     position: absolute;
 }
 
-.table{
+.table-top{
     height: 85vh;
-    width: 100vw;
+    width: 100%;
     position: absolute;
     bottom: 0;
     object-fit: cover;
-    object-position: 0 0;
+    object-position: right top;
 }
+
+.table {
+    height: 82vh;
+    width: 100vw;
+    bottom: 0;
+    left:0;
+    background: #ccb09e;
+    position: absolute;
+ }
+
+ .table::after {
+    position: absolute;
+    width: 100%; 
+    max-height: 100%; 
+    content: '';
+    background: inherit;
+    top: 0; 
+    bottom: 0; 
+    right: 0; 
+    left: 0; 
+    transform-origin: top right;
+    transform: skewY(1.25deg);
+    border-top: 2px solid #5b4e4a;
+ }
