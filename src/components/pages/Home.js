@@ -3,6 +3,7 @@ import './Home.css';
 import Navbar from '../modules/Navbar.js';
 import cafe from '../../assets/cafe.svg';
 import chalkboard from '../../assets/chalkboard.svg';
+import mobileCafe from '../../assets/mobile-cafe.svg';
 
 class Home extends Component {
   constructor(props){
@@ -12,11 +13,12 @@ class Home extends Component {
     return (
       <>
         <div className='home-background'>
-          <Navbar/>
           <div className='home'>
             <img src={cafe} className="cafe" alt="cafe"/>
             <img src={chalkboard} className="chalkboard" alt="chalkboard"/>
+            <img src={mobileCafe} className="mobile-cafe" alt="cafe"/>
           </div>
+          <Navbar/>
         </div>
       </>
     );

@@ -23,6 +23,7 @@
 
 .blackboard{
     height:65vh;
+    max-width: 85vw;
     position: absolute;
 }
 
@@ -103,7 +104,7 @@
 }
 
 .words{
-    max-width: 65vw;
+    max-width: 60vw;
 }
 .show{
     display: flex;

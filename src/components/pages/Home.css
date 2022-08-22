@@ -2,7 +2,9 @@
     display: flex;
     background-color: #fff3e6;
     min-height: 100vh;
+    min-width: 100vw;
 }
+
 .home{
     display: flex;
     justify-content: center;
@@ -17,4 +19,22 @@
     height:90vh;
     position: absolute;
     bottom: 0;
+}
+.mobile-cafe{
+    display: none;
+}
+
+@media screen and (max-width: 480px) {
+    .cafe{
+        display: none;
+    }
+    .chalkboard{
+        display: none;
+    }
+    .mobile-cafe{
+        display:block;
+        width: 100vw;
+        position: absolute;
+        bottom: 0;
+    }
 }

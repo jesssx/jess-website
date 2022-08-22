@@ -45,7 +45,7 @@
 }
 
 .table-top{
-    height: 85vh;
+    height: 85%;
     width: 100%;
     position: absolute;
     bottom: 0;
@@ -54,10 +54,9 @@
 }
 
 .table {
-    height: 82vh;
-    width: 100vw;
+    height: 84%;
+    width: 100%;
     bottom: 0;
-    left:0;
     background: #ccb09e;
     position: absolute;
  }
