@@ -1,4 +1,4 @@
-import React, { Component, useState } from "react";
+import React, { Component } from "react";
 import "./Navbar.css";
 import { slide as MobileNav } from 'react-burger-menu';
 
@@ -20,7 +20,7 @@ class Navbar extends Component{
                   < a href="/contact" className="nav-link">CONTACT</a>
                 </div>
                 <div className='nav-mobile'>
-                  <MobileNav isOpen={ true } >
+                  <MobileNav isOpen= { false } >
                     < a href="/" className="nav-link-mobile">HOME</a>
                     < a href="/about" className="nav-link-mobile">ABOUT</a>
                     < a href="/art" className="nav-link-mobile">ART</a>
