@@ -37,11 +37,11 @@
 
 /* Position and sizing of burger button */
 .bm-burger-button {
-    position: fixed;
     width: 40px;
     height: 30px;
-    left: 30px;
-    top: 35px;
+    right: 84vw;
+    top: 2.5vh;
+    position: absolute;
   }
   
   /* Color/shape of burger icon bars */

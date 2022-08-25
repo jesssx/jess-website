@@ -35,7 +35,6 @@
 .artwork-words{
     display: flex;
     flex-direction: column;
-    text-align: center;
     margin-right: 3vw;
     width: 30vw;
     text-align: left;
@@ -57,4 +56,44 @@
 
 .artwork-animation.false{
     display: none;
+}
+
+@media screen and (max-width: 480px) {
+    .artwork-container{
+        padding-top: 10vh;
+        font-size: 1em;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .artwork-title{
+        font-size: 2em;
+        font-weight: 500;
+        padding-bottom: 2vw;
+    }
+    
+    .artwork-dims{
+        font-style: italic;
+        padding-bottom: 1vw;
+        text-align: center;
+    }
+    
+    .artwork-words{
+        text-align: center;
+        margin-right: 3vw;
+        padding-bottom: 8vw;
+        flex-direction: column;
+        width: 90vw;
+    }
+    
+    .artwork-image{
+        max-width: 80vw; 
+        max-height: 70vh;
+    }
+    
+    .artwork-animation{
+        width: 80vw;
+        max-height: 70vh;
+    }
+
 }

@@ -3,8 +3,8 @@ import './Contact.css';
 import Navbar from '../modules/Navbar.js';
 import table from '../../assets/table.svg';
 import card from '../../assets/contact.svg';
-import tableMobile from '../../assets/mobile-table_1.svg';
-import cardMobile from '../../assets/mobile-contact.svg';
+import tableMobile from '../../assets/mobile_table.svg';
+import cardMobile from '../../assets/mobile_contact.svg';
 
 class Contact extends Component {
   constructor(props){

@@ -7,8 +7,9 @@
     display: flex;
     max-width: 30vw;
     max-height: 25vw;
-    margin: 5vw;
-    margin-top: 3vw;
+    margin-left: 10vw;
+    margin-right: 0;
+    margin-top: 4vw;
     margin-bottom: 0;
     flex-direction: column;
     text-align: center;
@@ -30,4 +31,22 @@
 
 .artTitle{
     font-size: 1.8vw;
+}
+
+@media screen and (max-width: 480px) {
+    .artTitle{
+        font-size: .85em;
+    }
+
+    .artPiece{
+        max-width: 25vw;
+        max-height: 22vw;
+    }
+    .menu-container{
+        max-width: 30vw;
+        max-height: 25vw;
+        margin-right: 0;
+        margin-left: 7vw;
+        margin-top: 10vw;
+    }
 }

@@ -26,3 +26,10 @@
     font-family: Omnes;
     padding-bottom: 5vw;
 }
+
+@media screen and (max-width: 480px) {
+    .art-title{
+        margin-top: 10vh;
+        font-size: 2.5em;
+    }
+}

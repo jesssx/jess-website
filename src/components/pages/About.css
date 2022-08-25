@@ -119,3 +119,47 @@
     position: absolute;
     bottom: 0;
 }
+
+.about-mobile{
+    display: none;
+}
+
+@media screen and (max-width: 480px) {
+    .about{
+        display: none;
+    }
+
+    .about-mobile{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        margin-top: 10vh;    
+    }
+
+    .blackboard-container{
+        max-height: 70vh;
+    }
+    
+    .blackboard{
+        width: 90vw;
+    }
+    
+    .selector{
+        font-size: 1.25em;
+        margin:1vw;
+        margin-top: 11vh;
+        margin-bottom: 1vh;
+    }
+        
+    .info{
+        font-size: .8em;
+        height: 35vh;
+        overflow-y: auto;
+        overflow-x: hidden;
+        line-height: 1.5em;
+    }
+        
+    .words{
+        max-width: 65vw;
+    }
+}

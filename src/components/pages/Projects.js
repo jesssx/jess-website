@@ -15,7 +15,6 @@ class Projects extends Component {
     return (
       <>
       <div className='projects-background'>
-          <Navbar/>
           <div className='projects'>
             <h2 className="projects-title">SPECIALS</h2>
             <Special 
@@ -68,6 +67,7 @@ class Projects extends Component {
               preview={esp}/>
           </div>
         </div>
+        <Navbar/>
       </>
     );
   };

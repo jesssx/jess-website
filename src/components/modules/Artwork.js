@@ -78,7 +78,6 @@ class Artwork extends Component{
         return (
             <>
                 <div className='artwork-background'>
-                    <Navbar/>
                     <div className='artwork-container'>
                         <div className='artwork-words'>
                             <div className='artwork-title'>{artTitle}</div>
@@ -91,6 +90,7 @@ class Artwork extends Component{
                         </video>                    
                     </div>
                 </div>
+                <Navbar/>
             </>
         );
       }

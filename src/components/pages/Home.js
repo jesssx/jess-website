@@ -3,7 +3,7 @@ import './Home.css';
 import Navbar from '../modules/Navbar.js';
 import cafe from '../../assets/cafe.svg';
 import chalkboard from '../../assets/chalkboard.svg';
-import mobileCafe from '../../assets/mobile-cafe.svg';
+import mobileCafe from '../../assets/mobile_cafe.svg';
 
 class Home extends Component {
   constructor(props){

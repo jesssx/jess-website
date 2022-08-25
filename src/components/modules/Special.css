@@ -15,6 +15,7 @@
     margin: 0 auto;
     margin-left: 1.5vw;
     margin-right: 1.5vw;
+    justify-content: center;
 }
 
 .special-title{
@@ -55,4 +56,39 @@
 .links{
     display: flex;
     justify-content: center;
+}
+
+@media screen and (max-width: 480px) {
+    .special-container{
+        width: 70vw;
+        margin-bottom: 6vw;
+        padding: 5vw 3vw;
+        flex-direction: column;
+    }
+        
+    .special-title{
+        font-size: 1em;
+        margin-bottom: 2vw;
+        font-family: 'Varela Round', sans-serif; 
+    }
+    
+    .special-text{
+        font-size: .8em;
+        text-align: left;
+        margin-bottom: 2vw;
+    }
+    
+    .preview{
+        display: none;
+    }
+    
+    .special-link{
+        color:#fff3e6;
+        background-color: #9bcaea;      
+        text-decoration: none;
+        padding: .5vw 3vw;
+        border-radius:10vw;
+        font-size: 1em;
+        margin-top: 2vw;
+    }
 }
