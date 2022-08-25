@@ -36,4 +36,10 @@
         position: absolute;
         bottom: 0;
     }
+    .home-background{
+        overflow: hidden;
+    }
+    .home{
+        overflow: hidden;
+    }
 }

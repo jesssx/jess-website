@@ -87,6 +87,7 @@
 
     .contact-mobile{
         display: block;
+        overflow: hidden;
     }
 
     .contact-background{
@@ -94,6 +95,7 @@
         flex-direction: column;
         background-color: #fff3e6;
         height: 100vh;
+        overflow: hidden;
     }
 
     .table {
